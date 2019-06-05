@@ -10,15 +10,15 @@ You can test it creating an user, updatind, find it and delete it.
 
 1 First, clone this porject:
 
- git clone https://github.com/leonardojap/backendNodeTypeScriptScrudUser.git
+	 git clone https://github.com/leonardojap/backendNodeTypeScriptScrudUser.git
  
 2 Go to the folder projec
 
-cd backendNodeTypeScriptScrudUser
+	cd backendNodeTypeScriptScrudUser
 
 3 install dependencies
 
-npm i
+	npm i
 
 4 run project:
 
@@ -28,37 +28,39 @@ This is the list of services, feel free to test it and update it:
 
 Create user:
 
-Url: localhost:3000/api/user/create
-Metoth: POST
-Data:
-{
-	"name":"Leonardo",
-	"lastName": "Alvarado",
-	"email":"ing.leonardo92@gmail.com",
-	"password":"12345678"
-}
+	Url: localhost:3000/api/user/create
+	Metoth: POST
+	Data:
+
+	{
+		"name":"Leonardo",
+		"lastName": "Alvarado",
+		"email":"ing.leonardo92@gmail.com",
+		"password":"12345678"
+	}
 
 Update user:
 
-Url: localhost:3000/api/user/update
-Metoth: POST
-Data:
-{
-	"name":"Leonardo Jose",
-	"lastName": "Alvarado Padua",
-	"email":"ing.leonardo92@gmail.com",
-	"password":"newpass"
-}
+	Url: localhost:3000/api/user/update
+	Metoth: POST
+	Data:
+	{
+		"name":"Leonardo Jose",
+		"lastName": "Alvarado Padua",
+		"email":"ing.leonardo92@gmail.com",
+		"password":"newpass"
+	}
 
 Find user:
 
-Url: localhost:3000/api/user/:emailUser
-Metoth: GET
+	Url: localhost:3000/api/user/:emailUser
+
+	Metoth: GET
 
 Delete user:
 
-Url: localhost:3000/api/user/:emailUser
-Metoth: DELETE
+	Url: localhost:3000/api/user/:emailUser
+	Metoth: DELETE
 
 
 
