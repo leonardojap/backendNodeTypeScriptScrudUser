@@ -22,7 +22,7 @@ You can test it creating an user, updatind, find it and delete it.
 
 4 run project:
 
-npm run start
+	npm run start
 
 This is the list of services, feel free to test it and update it:
 
@@ -50,6 +50,7 @@ Update user:
 		"email":"ing.leonardo92@gmail.com",
 		"password":"newpass"
 	}
+	
 
 Find user:
 
@@ -62,6 +63,13 @@ Delete user:
 	Url: localhost:3000/api/user/:emailUser
 	Metoth: DELETE
 
+Responses:
+
+	{
+		code:200,
+		message:"...",
+		data{...} //an obejct or empty
+	}
 
 
 
