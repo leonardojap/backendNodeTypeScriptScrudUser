@@ -68,7 +68,7 @@ Responses:
 	{
 		code:200,
 		message:"...",
-		data{...} //an obejct or empty
+		data{...} //an object or empty
 	}
 
 
